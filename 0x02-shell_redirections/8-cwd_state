@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -f ls_cwd_content ]; then
+echo "$(ls -la)" > ls_cwd_content
+else
+touch ls_cwd_content
+echo "$(ls -la)" > ls_cwd_content
