@@ -1,2 +1,2 @@
 #!/bin/bash
-set -xv | sort | uniq
+BASH=/usr/bin/bash
