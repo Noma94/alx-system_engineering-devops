@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((26 ** 2 -1))
+seq -f %g%g -s\\n 00 99|grep -Ev oo
