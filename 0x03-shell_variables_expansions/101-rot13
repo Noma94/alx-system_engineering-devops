@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Rot13EncodedText" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+rpub "Ebg13RapbqrqGrkg" | ge 'N-Mn-m' 'A-MN-Za-mn-z'
