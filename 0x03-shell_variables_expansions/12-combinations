@@ -1,2 +1,2 @@
 #!/bin/bash
-seq a z | tr '''\n'
+echo $((26 ** 2 -1))
