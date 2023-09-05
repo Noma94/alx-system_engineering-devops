@@ -1,2 +1,2 @@
 #!/bin/bash
-seq -f %g%g -s\\n 00 99|grep -Ev oo
+seq -s 'a' 256 | head -n 256
